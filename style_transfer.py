@@ -1,21 +1,22 @@
 '''Neural style transfer with Keras.
-Run the script with:
+
+Autors:
+Efrain Adrian Luna Nevarez
+Efrain Arrambide Barron
+
+This program will apply the styles defined in the folder "styles/*.*" to the images
+in the folder "imgs/*.*", the output of these images will be saved in the folder res/*.*
+
 ```
-python neural_style_transfer.py path_to_your_base_image.jpg path_to_your_reference.jpg prefix_for_results
+These are some parameters that can be changed in the function doprocess():
 ```
-e.g.:
-```
-python neural_style_transfer.py img/tuebingen.jpg img/starry_night.jpg results/my_result
-```
-Optional parameters:
-```
---iter, To specify the number of iterations the style transfer takes place (Default is 10)
---content_weight, The weight given to the content loss (Default is 0.025)
---style_weight, The weight given to the style loss (Default is 1.0)
---tv_weight, The weight given to the total variation loss (Default is 1.0)
+iter.- To specify the number of iterations the style transfer takes place (Default is 20)
+content_weight.- The weight given to the content loss (Default is 0.025)
+style_weight, The weight given to the style loss (Default is 1.0)
+tv_weight, The weight given to the total variation loss (Default is 1.0)
 ```
 It is preferable to run this script on GPU, for speed.
-Example result: https://twitter.com/fchollet/status/686631033085677568
+
 # Details
 Style transfer consists in generating an image
 with the same "content" as a base image, but with the
@@ -200,13 +201,16 @@ def eval_loss_and_grads(x):
     return loss_value, grad_values
 
 def doprocess(img_path, style_path, iter, content_weight, style_weight, tv_weight):
-    base_image_path = img_path
-    style_reference_image_path = style_path
-    result_prefix = "res" + "/" + os.path.basename(img_path)
-    iterations = iter
     global img_nrows
     global img_ncols
     global f_outputs
+
+    base_image_path = img_path
+    style_reference_image_path = style_path
+    img_name = os.path.splitext(os.path.basename(img_path))[0]
+    style_name = os.path.splitext(os.path.basename(style_path))[0]
+    result_prefix = "res" + "/" + img_name + "_" + style_name
+    iterations = iter
 
     # these are the weights of the different loss components
     total_variation_weight = tv_weight
@@ -292,7 +296,7 @@ def doprocess(img_path, style_path, iter, content_weight, style_weight, tv_weigh
         print('Image saved as', fname)
         print('Iteration %d completed in %ds' % (i, end_time - start_time))
 
-def proccess(list_imgs, list_styles, iter=10, content_weight=0.025, style_weight=1.0, tv_weight=1.0):
+def proccess(list_imgs, list_styles, iter=20, content_weight=0.025, style_weight=1.0, tv_weight=1.0):
     for img in list_imgs:
         for style in list_styles:
             doprocess(img, style, iter, content_weight, style_weight, tv_weight)
