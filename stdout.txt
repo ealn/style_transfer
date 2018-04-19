@@ -1,6 +1,328 @@
 C:\Users\adria\AppData\Local\conda\conda\envs\python35\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
   from ._conv import register_converters as _register_converters
 Using TensorFlow backend.
-2018-04-16 00:42:07.138967: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2018-04-16 21:17:30.788167: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
 Model loaded.
 Start of iteration 0
+Current loss value: 5589054500.0
+Image saved as res/img2_forest_at_iteration_0.png
+Iteration 0 completed in 766s
+Start of iteration 1
+Current loss value: 3676165400.0
+Image saved as res/img2_forest_at_iteration_1.png
+Iteration 1 completed in 758s
+Start of iteration 2
+Current loss value: 3154094000.0
+Image saved as res/img2_forest_at_iteration_2.png
+Iteration 2 completed in 752s
+Start of iteration 3
+Current loss value: 2868347400.0
+Image saved as res/img2_forest_at_iteration_3.png
+Iteration 3 completed in 754s
+Start of iteration 4
+Current loss value: 2695406000.0
+Image saved as res/img2_forest_at_iteration_4.png
+Iteration 4 completed in 763s
+Start of iteration 5
+Current loss value: 2547837400.0
+Image saved as res/img2_forest_at_iteration_5.png
+Iteration 5 completed in 764s
+Start of iteration 6
+Current loss value: 2445006800.0
+Image saved as res/img2_forest_at_iteration_6.png
+Iteration 6 completed in 759s
+Start of iteration 7
+Current loss value: 2355211500.0
+Image saved as res/img2_forest_at_iteration_7.png
+Iteration 7 completed in 761s
+Start of iteration 8
+Current loss value: 2285032400.0
+Image saved as res/img2_forest_at_iteration_8.png
+Iteration 8 completed in 774s
+Start of iteration 9
+Current loss value: 2220384000.0
+Image saved as res/img2_forest_at_iteration_9.png
+Iteration 9 completed in 760s
+Start of iteration 10
+Current loss value: 2163880200.0
+Image saved as res/img2_forest_at_iteration_10.png
+Iteration 10 completed in 764s
+Start of iteration 11
+Current loss value: 2106970400.0
+Image saved as res/img2_forest_at_iteration_11.png
+Iteration 11 completed in 753s
+Start of iteration 12
+Current loss value: 2055378700.0
+Image saved as res/img2_forest_at_iteration_12.png
+Iteration 12 completed in 752s
+Start of iteration 13
+Current loss value: 2015574300.0
+Image saved as res/img2_forest_at_iteration_13.png
+Iteration 13 completed in 753s
+Start of iteration 14
+Current loss value: 1968388000.0
+Image saved as res/img2_forest_at_iteration_14.png
+Iteration 14 completed in 753s
+Start of iteration 15
+Current loss value: 1931412500.0
+Image saved as res/img2_forest_at_iteration_15.png
+Iteration 15 completed in 753s
+Start of iteration 16
+Current loss value: 1890300400.0
+Image saved as res/img2_forest_at_iteration_16.png
+Iteration 16 completed in 755s
+Start of iteration 17
+Current loss value: 1857328300.0
+Image saved as res/img2_forest_at_iteration_17.png
+Iteration 17 completed in 753s
+Start of iteration 18
+Current loss value: 1827631500.0
+Image saved as res/img2_forest_at_iteration_18.png
+Iteration 18 completed in 754s
+Start of iteration 19
+Current loss value: 1799626100.0
+Image saved as res/img2_forest_at_iteration_19.png
+Iteration 19 completed in 752s
+Model loaded.
+Start of iteration 0
+Current loss value: 6215606000.0
+Image saved as res/img3_gothic_at_iteration_0.png
+Iteration 0 completed in 707s
+Start of iteration 1
+Current loss value: 3511283700.0
+Image saved as res/img3_gothic_at_iteration_1.png
+Iteration 1 completed in 704s
+Start of iteration 2
+Current loss value: 2850905300.0
+Image saved as res/img3_gothic_at_iteration_2.png
+Iteration 2 completed in 705s
+Start of iteration 3
+Current loss value: 2525633000.0
+Image saved as res/img3_gothic_at_iteration_3.png
+Iteration 3 completed in 707s
+Start of iteration 4
+Current loss value: 2330158600.0
+Image saved as res/img3_gothic_at_iteration_4.png
+Iteration 4 completed in 707s
+Start of iteration 5
+Current loss value: 2199399200.0
+Image saved as res/img3_gothic_at_iteration_5.png
+Iteration 5 completed in 707s
+Start of iteration 6
+Current loss value: 2104671600.0
+Image saved as res/img3_gothic_at_iteration_6.png
+Iteration 6 completed in 710s
+Start of iteration 7
+Current loss value: 2021420500.0
+Image saved as res/img3_gothic_at_iteration_7.png
+Iteration 7 completed in 707s
+Start of iteration 8
+Current loss value: 1963045600.0
+Image saved as res/img3_gothic_at_iteration_8.png
+Iteration 8 completed in 704s
+Start of iteration 9
+Current loss value: 1919308400.0
+Image saved as res/img3_gothic_at_iteration_9.png
+Iteration 9 completed in 710s
+Start of iteration 10
+Current loss value: 1883386100.0
+Image saved as res/img3_gothic_at_iteration_10.png
+Iteration 10 completed in 706s
+Start of iteration 11
+Current loss value: 1842087200.0
+Image saved as res/img3_gothic_at_iteration_11.png
+Iteration 11 completed in 704s
+Start of iteration 12
+Current loss value: 1812824600.0
+Image saved as res/img3_gothic_at_iteration_12.png
+Iteration 12 completed in 707s
+Start of iteration 13
+Current loss value: 1791791100.0
+Image saved as res/img3_gothic_at_iteration_13.png
+Iteration 13 completed in 725s
+Start of iteration 14
+Current loss value: 1770435100.0
+Image saved as res/img3_gothic_at_iteration_14.png
+Iteration 14 completed in 709s
+Start of iteration 15
+Current loss value: 1748761900.0
+Image saved as res/img3_gothic_at_iteration_15.png
+Iteration 15 completed in 704s
+Start of iteration 16
+Current loss value: 1730042600.0
+Image saved as res/img3_gothic_at_iteration_16.png
+Iteration 16 completed in 708s
+Start of iteration 17
+Current loss value: 1715302100.0
+Image saved as res/img3_gothic_at_iteration_17.png
+Iteration 17 completed in 706s
+Start of iteration 18
+Current loss value: 1696305900.0
+Image saved as res/img3_gothic_at_iteration_18.png
+Iteration 18 completed in 709s
+Start of iteration 19
+Current loss value: 1679201000.0
+Image saved as res/img3_gothic_at_iteration_19.png
+Iteration 19 completed in 707s
+Model loaded.
+Start of iteration 0
+Current loss value: 8907659000.0
+Image saved as res/img4_picasso_at_iteration_0.png
+Iteration 0 completed in 703s
+Start of iteration 1
+Current loss value: 5991129000.0
+Image saved as res/img4_picasso_at_iteration_1.png
+Iteration 1 completed in 698s
+Start of iteration 2
+Current loss value: 5159100400.0
+Image saved as res/img4_picasso_at_iteration_2.png
+Iteration 2 completed in 698s
+Start of iteration 3
+Current loss value: 4745586000.0
+Image saved as res/img4_picasso_at_iteration_3.png
+Iteration 3 completed in 704s
+Start of iteration 4
+Current loss value: 4493380600.0
+Image saved as res/img4_picasso_at_iteration_4.png
+Iteration 4 completed in 700s
+Start of iteration 5
+Current loss value: 4329306000.0
+Image saved as res/img4_picasso_at_iteration_5.png
+Iteration 5 completed in 705s
+Start of iteration 6
+Current loss value: 4213604900.0
+Image saved as res/img4_picasso_at_iteration_6.png
+Iteration 6 completed in 701s
+Start of iteration 7
+Current loss value: 4117886500.0
+Image saved as res/img4_picasso_at_iteration_7.png
+Iteration 7 completed in 701s
+Start of iteration 8
+Current loss value: 4030645800.0
+Image saved as res/img4_picasso_at_iteration_8.png
+Iteration 8 completed in 699s
+Start of iteration 9
+Current loss value: 3956486400.0
+Image saved as res/img4_picasso_at_iteration_9.png
+Iteration 9 completed in 700s
+Start of iteration 10
+Current loss value: 3889704700.0
+Image saved as res/img4_picasso_at_iteration_10.png
+Iteration 10 completed in 712s
+Start of iteration 11
+Current loss value: 3838346000.0
+Image saved as res/img4_picasso_at_iteration_11.png
+Iteration 11 completed in 724s
+Start of iteration 12
+Current loss value: 3791868400.0
+Image saved as res/img4_picasso_at_iteration_12.png
+Iteration 12 completed in 710s
+Start of iteration 13
+Current loss value: 3749507000.0
+Image saved as res/img4_picasso_at_iteration_13.png
+Iteration 13 completed in 719s
+Start of iteration 14
+Current loss value: 3714924500.0
+Image saved as res/img4_picasso_at_iteration_14.png
+Iteration 14 completed in 725s
+Start of iteration 15
+Current loss value: 3680739300.0
+Image saved as res/img4_picasso_at_iteration_15.png
+Iteration 15 completed in 718s
+Start of iteration 16
+Current loss value: 3647658500.0
+Image saved as res/img4_picasso_at_iteration_16.png
+Iteration 16 completed in 710s
+Start of iteration 17
+Current loss value: 3616481800.0
+Image saved as res/img4_picasso_at_iteration_17.png
+Iteration 17 completed in 720s
+Start of iteration 18
+Current loss value: 3591189000.0
+Image saved as res/img4_picasso_at_iteration_18.png
+Iteration 18 completed in 724s
+Start of iteration 19
+Current loss value: 3571769300.0
+Image saved as res/img4_picasso_at_iteration_19.png
+Iteration 19 completed in 720s
+Model loaded.
+Start of iteration 0
+Current loss value: 2434890500.0
+Image saved as res/img5_van_gough_at_iteration_0.png
+Iteration 0 completed in 925s
+Start of iteration 1
+Current loss value: 1494816100.0
+Image saved as res/img5_van_gough_at_iteration_1.png
+Iteration 1 completed in 918s
+Start of iteration 2
+Current loss value: 1277116900.0
+Image saved as res/img5_van_gough_at_iteration_2.png
+Iteration 2 completed in 930s
+Start of iteration 3
+Current loss value: 1178745100.0
+Image saved as res/img5_van_gough_at_iteration_3.png
+Iteration 3 completed in 928s
+Start of iteration 4
+Current loss value: 1119893000.0
+Image saved as res/img5_van_gough_at_iteration_4.png
+Iteration 4 completed in 927s
+Start of iteration 5
+Current loss value: 1080026400.0
+Image saved as res/img5_van_gough_at_iteration_5.png
+Iteration 5 completed in 924s
+Start of iteration 6
+Current loss value: 1047061600.0
+Image saved as res/img5_van_gough_at_iteration_6.png
+Iteration 6 completed in 927s
+Start of iteration 7
+Current loss value: 1024492540.0
+Image saved as res/img5_van_gough_at_iteration_7.png
+Iteration 7 completed in 933s
+Start of iteration 8
+Current loss value: 1008338200.0
+Image saved as res/img5_van_gough_at_iteration_8.png
+Iteration 8 completed in 924s
+Start of iteration 9
+Current loss value: 995674240.0
+Image saved as res/img5_van_gough_at_iteration_9.png
+Iteration 9 completed in 913s
+Start of iteration 10
+Current loss value: 983049860.0
+Image saved as res/img5_van_gough_at_iteration_10.png
+Iteration 10 completed in 929s
+Start of iteration 11
+Current loss value: 972660200.0
+Image saved as res/img5_van_gough_at_iteration_11.png
+Iteration 11 completed in 924s
+Start of iteration 12
+Current loss value: 965276800.0
+Image saved as res/img5_van_gough_at_iteration_12.png
+Iteration 12 completed in 931s
+Start of iteration 13
+Current loss value: 958514800.0
+Image saved as res/img5_van_gough_at_iteration_13.png
+Iteration 13 completed in 923s
+Start of iteration 14
+Current loss value: 952516200.0
+Image saved as res/img5_van_gough_at_iteration_14.png
+Iteration 14 completed in 923s
+Start of iteration 15
+Current loss value: 946646850.0
+Image saved as res/img5_van_gough_at_iteration_15.png
+Iteration 15 completed in 928s
+Start of iteration 16
+Current loss value: 941631740.0
+Image saved as res/img5_van_gough_at_iteration_16.png
+Iteration 16 completed in 920s
+Start of iteration 17
+Current loss value: 937285400.0
+Image saved as res/img5_van_gough_at_iteration_17.png
+Iteration 17 completed in 934s
+Start of iteration 18
+Current loss value: 932808960.0
+Image saved as res/img5_van_gough_at_iteration_18.png
+Iteration 18 completed in 898s
+Start of iteration 19
+Current loss value: 928954100.0
+Image saved as res/img5_van_gough_at_iteration_19.png
+Iteration 19 completed in 899s
